@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Películas</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Carrito de Películas</h1>
+        <div class="buttons">
+            <button id="comprar">Comprar Películas</button>
+            <button id="alquilar">Alquilar Películas</button>
+            <button id="verCarrito">Ver Carrito</button>
+            <button id="finalizarCompra">Finalizar Compra</button>
+        </div>
+
+        <div id="peliculasDisponibles" class="hidden">
+            <h2>Películas Disponibles</h2>
+            <ul id="listaPeliculas"></ul>
+        </div>
+
+        <div id="carrito" class="hidden">
+            <h2>Carrito</h2>
+            <ul id="listaCarrito"></ul>
+            <p>Total: <span id="totalCarrito"></span> pesos</p>
+        </div>
+
+        <div id="finalizar" class="hidden">
+            <h2>Finalizar Compra</h2>
+            <p>Total a pagar: <span id="totalFinalizar"></span> pesos</p>
+            <div id="cuotas" class="hidden">
+                <h2>Pagar en Cuotas</h2>
+                <label for="cantidadCuotas">Cantidad de Cuotas (3 o 6):</label>
+                <input type="number" id="cantidadCuotas" min="3" max="6">
+                <button id="calcularCuotas">Calcular Cuotas</button>
+            </div>
+            <div id="resultadoCuotas" class="hidden">
+                <h2>Resultado de Cuotas</h2>
+                <p>Total con Interés: <span id="totalInteres"></span> pesos</p>
+                <p>Valor de cada Cuota: <span id="valorCuota"></span> pesos</p>
+            </div>
+            <button id="pagoEfectivo">Pagar en Efectivo</button>
+            <button id="pagoCuotas">Pagar en Cuotas</button>
+        </div>
+    </div>
+
+    <script src="./javascript/index.js"></script>
+</body>
+</html>

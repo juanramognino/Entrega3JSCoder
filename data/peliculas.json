@@ -1,0 +1,62 @@
+[
+    {
+        "titulo": "Avengers: Infinity War",
+        "genero": "Acción",
+        "año": "2018",
+        "edad": "+18",
+        "precio": 1200,
+        "alquiler": false,
+        "costoAlquilerPorDia": 0,
+        "duracionAlquiler": 0
+    },
+    {
+        "titulo": "El Sexto Sentido",
+        "genero": "Suspenso",
+        "año": "2002",
+        "edad": "+18",
+        "precio": 1300,
+        "alquiler": false,
+        "costoAlquilerPorDia": 0,
+        "duracionAlquiler": 0
+    },
+    {
+        "titulo": "Titanic",
+        "genero": "Romance",
+        "año": "1997",
+        "edad": "ATP",
+        "precio": 1150,
+        "alquiler": false,
+        "costoAlquilerPorDia": 0,
+        "duracionAlquiler": 0
+    },
+    {
+        "titulo": "Thor",
+        "genero": "Acción",
+        "año": "2011",
+        "edad": "ATP",
+        "precio": 1200,
+        "alquiler": false,
+        "costoAlquilerPorDia": 0,
+        "duracionAlquiler": 0
+    },
+    {
+        "titulo": "La La Land",
+        "genero": "Romance",
+        "año": "2016",
+        "edad": "ATP",
+        "precio": 3150,
+        "alquiler": false,
+        "costoAlquilerPorDia": 0,
+        "duracionAlquiler": 0
+    },
+    {
+        "titulo": "El Conjuro",
+        "genero": "Terror",
+        "año": "2013",
+        "edad": "+21",
+        "precio": 200,
+        "alquiler": true,
+        "costoAlquilerPorDia": 50,
+        "duracionAlquiler": 7
+    }
+]
